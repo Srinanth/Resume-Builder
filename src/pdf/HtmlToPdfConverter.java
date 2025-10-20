@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 
 public class HtmlToPdfConverter implements PdfConvertible {
-    private static final String PDFSHIFT_API_KEY = "sk_3867bd3f25687a7be11a7fc01ff6ea077fc061f4"; 
+    private static final String PDFSHIFT_API_KEY = ""; 
     private static final String PDFSHIFT_API_URL = "https://api.pdfshift.io/v3/convert/pdf";
     private static final int TIMEOUT_SECONDS = 20;
 
